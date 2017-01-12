@@ -1,0 +1,93 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 14px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* Main Header */
+.main-header {
+	height: 550px;
+	background: url("https://s3.amazonaws.com/codecademy-content/projects/shutterbugg/intro.jpg") no-repeat;
+	background-size: cover;
+}
+
+.container {
+	max-width: 980px;
+	margin: 0 auto;
+	padding: 50px;
+}
+
+.main-header h1 {
+	font-size: 64px;
+	font-weight: 200;
+	margin-bottom: 20px;
+}
+
+.main-header p {
+	font-size: 24px;
+	font-weight: 100;
+	margin-bottom: 40px;
+}
+
+.main-header a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 100;
+	background-color: rgba(238,68,95,0.9);
+	padding: 5px 30px;
+	border-radius: 4px;
+}
+
+/* Main Container */
+.main-container h2 {
+	font-size: 64px;
+	font-weight: 200;
+	margin-bottom: 30px;
+}
+
+.main-container p {
+	font-size: 30px;
+	font-weight: 200;
+}
+
+.adjust {
+	text-align: right;
+}
+
+.section {
+	border-bottom: 2px solid grey;
+}
+
+.store p {
+	text-align: center;
+}
+
+.store-images img {
+	width: 185px;
+	height: 55px;
+	text-align: center;
+}
+
+.store-images {
+	text-align: center;
+}
+
+/* Footer */
+footer {
+	background-color: azure;
+	border: 2px solid azure;
+	text-align: center;
+}
+
+ul {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
